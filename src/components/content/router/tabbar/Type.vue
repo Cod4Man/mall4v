@@ -8,7 +8,7 @@
   // const MainInterface = () => import(/* webpackChunkName: "about" */ 'src/components/common/tabbar/MainInterface.vue')
   import MainInterface from 'components/common/tabbar/MainInterface'
     export default {
-      name: "Profile",
+      name: "Type",
       components: {
         MainInterface
       },

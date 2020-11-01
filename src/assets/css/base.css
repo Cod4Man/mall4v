@@ -2,6 +2,6 @@
 
 /*:root 伪类选择器，拿到根元素html*/
 :root {
-    /*定义变量    */
-    --large-size: 10px;
+  /*定义变量    */
+  --large-size: 10px;
 }

@@ -1,27 +1,31 @@
-#menubar-main{
-    border: 2px solid red;
-    width: auto;
-    height: 49px;
-    display: flex;
+#menubar-main {
+  width: 100%;
+  height: 49px;
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  background-color: #efeef3;
+  padding: 10px 5px;
 }
 
-.menubar-detail{
-    margin-right: 10px;
-    margin-top: 2px;
-    margin-bottom: 2px;
-    border: 1px solid #fe7fff;
-    flex: 1;
-
+.menubar-detail {
+  margin-right: 10px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  flex: 1;
+  text-align: center;
 }
 
-img {
-    width: 20px;
-    height: 20px;
+.menubar-img img{
+  width: 28px;
+  height: 28px;
+  color: #ff7181;
 }
 
 #main-interface {
-    color: #375688;
-    border: 2px solid #6eff9e;
-    width: 200px;
-    height: 200px;
+
+}
+
+.router-active {
+  color: #ff7181;
 }

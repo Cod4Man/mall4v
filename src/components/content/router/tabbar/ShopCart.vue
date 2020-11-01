@@ -14,8 +14,22 @@
       },
       data() {
         return {
-          msg: this.$route.query.name
+          msg: this.$route.path
         }
+      },
+      // 使用声明周期函数：
+      activated() {
+        // 该路由活跃
+        // 读取缓存
+        this.$router.path = this.path
+      },
+      deactivated() {
+        // 该路由不活跃
+      },
+      beforeRouteLeave(to, from, next) {
+        this.path = this.$router.path
+        // 缓存path
+        next()
       }
     }
 </script>

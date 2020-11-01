@@ -4,17 +4,17 @@
   @date: 2020年10月20日
 -->
 <template>
-      <div id="menubar-main">
-        <slot></slot>
-      </div>
+  <div id="menubar-main">
+    <slot></slot>
+  </div>
 </template>
 
 <script>
-    export default {
-        name: "MenuBar"
-    }
+  export default {
+    name: "MenuBar"
+  }
 </script>
 
 <style scoped>
-  /*@import "assets/css/tabbar.css";*/
+  @import "~assets/css/tabbar.css";
 </style>
