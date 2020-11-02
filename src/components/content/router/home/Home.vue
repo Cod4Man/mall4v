@@ -1,17 +1,20 @@
 <template>
   <div>
-    <main-interface :message="msg"></main-interface>
+    <!--<main-interface :message="msg"></main-interface>-->
+    <home-top-bar/>
   </div>
 </template>
 
 <script>
   // const MainInterface = () => import(/* webpackChunkName: "about" */ 'src/components/common/tabbar/MainInterface.vue')
-  import MainInterface from 'components/common/tabbar/MainInterface'
+  // import MainInterface from 'components/common/tabbar/MainInterface'
+  const HomeTopBar = () => import('components/content/router/home/HomeTopBar.vue')
 
   export default {
     name: "Home",
     components: {
-      MainInterface
+      // MainInterface
+      HomeTopBar // 首页顶部栏
     },
     data() {
       return {

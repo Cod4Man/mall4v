@@ -1,0 +1,18 @@
+.top-bar {
+  height: 49px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  display: flex;
+}
+
+.top-bar div {
+  font-family: 楷体;
+  font-size: 20px;
+  text-align: center;
+  height: 49px;
+  line-height: 49px;
+  /*display: inline;*/
+  /*padding-top: 20px;*/
+  /*padding-bottom: 20px  ;*/
+}

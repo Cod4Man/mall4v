@@ -1,16 +1,15 @@
 <template>
     <div>
-      <main-interface :message="msg"></main-interface>
+      <type-top-bar/>
     </div>
 </template>
 
 <script>
-  // const MainInterface = () => import(/* webpackChunkName: "about" */ 'src/components/common/tabbar/MainInterface.vue')
-  import MainInterface from 'components/common/tabbar/MainInterface'
+  const TypeTopBar = () => import('components/content/router/type/TypeTopBar.vue')
     export default {
       name: "Type",
       components: {
-        MainInterface
+        TypeTopBar
       },
       data() {
         return {
