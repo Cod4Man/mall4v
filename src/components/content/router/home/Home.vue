@@ -15,7 +15,7 @@
   const Swiper = () => import('components/common/swiper/Swiper.vue')
   const MainTypeBar = () => import('components/common/maintypebar/MainTypeBar.vue')
   const DetailTypeBar = () => import('components/common/detailtypebar/DetailTypeBar.vue')
-
+  console.log('test dev ')
   export default {
     name: "Home",
     components: {
