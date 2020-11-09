@@ -42,5 +42,5 @@
 </script>
 
 <style scoped>
-  @import "~assets/css/tabbar.css";
+  @import "~assets/css/commonbar/tabbar.css";
 </style>

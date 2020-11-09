@@ -13,5 +13,5 @@
 </script>
 
 <style scoped>
-  @import "~assets/css/topbar.css";
+  @import "~assets/css/commonbar/topbar.css";
 </style>
